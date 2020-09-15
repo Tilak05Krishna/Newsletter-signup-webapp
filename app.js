@@ -50,7 +50,7 @@ response.on("data", function(data)
 })
 })
 
-// request.write(jsonData); //this line can be used to check the failure, so just comment it failure check
+request.write(jsonData); //this line can be used to check the failure, so just comment it failure check
 request.end();
 })
 
